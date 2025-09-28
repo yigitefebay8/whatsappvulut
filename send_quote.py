@@ -23,6 +23,7 @@ quotes = [
     {"content": "Her kod satırı bir fırsat, her hata ise bir öğrenme deneyimidir.", "author": "Bilinmiyor"},
     {"content": "Kodunuzu, bir başkası tarafından gece yarısı, acil bir şekilde debug yapması gerektiğini hayal ederek yazın.", "author": "John Woods"},
     {"content": "Yazılım geliştirme süreci, karmaşık düşüncelerin basit çözümlerle harmanlanmasıdır.", "author": "Bilinmiyor"},
+    {"content": "İyi bir programcı, tek yönlü bir caddeden geçmeden önce her iki tarafa da bakan kişidir.”", "author": "Doug Linder"},
  
 ]
 
