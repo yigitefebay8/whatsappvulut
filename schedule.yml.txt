@@ -1,0 +1,28 @@
+name: Send WhatsApp Quote (Scheduled)
+
+on:
+  schedule:
+    # Her gün 09:00 Türkiye saati -> UTC 06:00 (UTC+3) olarak ayarlıyoruz
+    - cron: '0 6 * * *'  # Her gün UTC saatine göre 06:00'da çalışacak (Türkiye saati 09:00)
+  workflow_dispatch: {}  # manuel tetikleme için
+
+jobs:
+  send-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests translate
+      - name: Run script
+        env:
+          WH_TOKEN: ${{ secrets.WH_TOKEN }}
+          WH_URL: ${{ secrets.WH_URL }}
+          PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
+        run: |
+          python send_quote.py
