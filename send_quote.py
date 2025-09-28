@@ -26,6 +26,7 @@ quotes = [
     {"content": "İyi bir programcı, tek yönlü bir caddeden geçmeden önce her iki tarafa da bakan kişidir.”", "author": "Doug Linder"},
     {"content": "Önce çalışır hale getir, sonra doğru hale getir, en son da hızlı hale getir.", "author": "Kent Beck"},
     {"content": "Programlama sanatı, karmaşıklığı yönetme sanatıdır.", "author": "Edsger Dijkstra"},
+     {"content": "Mantık sizi A noktasından B noktasına götürür.Hayal gücü her yere", "author": "Albert Einstein"},
 ]
 
 def get_random_quote():
