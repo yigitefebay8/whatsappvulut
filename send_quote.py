@@ -24,6 +24,7 @@ quotes = [
     {"content": "Kodunuzu, bir başkası tarafından gece yarısı, acil bir şekilde debug yapması gerektiğini hayal ederek yazın.", "author": "John Woods"},
     {"content": "Yazılım geliştirme süreci, karmaşık düşüncelerin basit çözümlerle harmanlanmasıdır.", "author": "Bilinmiyor"},
     {"content": "İyi bir programcı, tek yönlü bir caddeden geçmeden önce her iki tarafa da bakan kişidir.”", "author": "Doug Linder"},
+    {"content": "Önce çalışır hale getir, sonra doğru hale getir, en son da hızlı hale getir.", "author": "Kent Beck"},
  
 ]
 
