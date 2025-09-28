@@ -3,7 +3,7 @@ name: Send WhatsApp Quote (Scheduled)
 on:
   schedule:
     # Her gün 09:00 Türkiye saati -> UTC 06:00 (UTC+3) olarak ayarlıyoruz
-    - cron: '0 6 * * *'  # Her gün UTC saatine göre 06:00'da çalışacak (Türkiye saati 09:00)
+    - cron: '0 5 * * *'  # Her gün UTC saatine göre 06:00'da çalışacak (Türkiye saati 09:00)
   workflow_dispatch: {}  # manuel tetikleme için
 
 jobs:
