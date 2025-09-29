@@ -29,7 +29,8 @@ quotes = [
     {"content": "Mantık sizi A noktasından B noktasına götürür.Hayal gücü her yere", "author": "Albert Einstein"},
     {"content": "Tembellik, bir programcının en büyük erdemidir.", "author": "Larry Wall"},
     {"content": "Şiir gibi kodlama, kısa ve öz olmalıdır.", "author": "Santosh Kalwar"},
-     {"content": "Programlama düşünmektir yazmak değil", "author": "Anonim"},
+    {"content": "Programlama düşünmektir yazmak değil", "author": "Anonim"},
+    {"content": "Yazılım geliştirmedeki en önemli tek unsur, ne inşa etmeye çalıştığınız konusunda net olmaktır.”", "author": "Bjarne Stroustrup"},
 ]
 
 def get_random_quote():
