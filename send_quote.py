@@ -32,6 +32,8 @@ quotes = [
     {"content": "Programlama düşünmektir yazmak değil", "author": "Anonim"},
     {"content": "Yazılım geliştirmedeki en önemli tek unsur, ne inşa etmeye çalıştığınız konusunda net olmaktır.”", "author": "Bjarne Stroustrup"},
     {"content": "“Kodu okumak, yazmaktan daha zordur.", "author": "Joel Spolsky"},
+    {"content": "Kod, espiri gibidir. Açıklamak zorundaysanız kötüdür.", "author": "Cory House"},
+
 ]
 
 def get_random_quote():
